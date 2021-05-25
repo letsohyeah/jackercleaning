@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<title>prototype</title>
+	    <!-- meta -->
+	    <meta name="description" content="" />
+	    <meta content="" name="keywords">
+	    <meta name="robots" content="NOODP">
+	    <meta name="googlebot" content="NOODP">
+	    <meta name="googlebot" content="NOODP, nofollow">
+	    <!-- 強制IE非相容性 -->
+	    <meta http-equiv="cache-control" content="no-cache">
+	    <meta http-equiv="pragma" content="no-cache">
+	    <meta http-equiv="expires" content="0">
+	    <!-- FB meta -->
+	    <meta property="og:title" content="" />
+	    <meta property="og:description" content="">
+	    <meta property="og:type" content="website">
+	    <meta property="og:url" content="" />
+	    <meta property="og:image" content="">
+	    <meta property="og:image:width" content="645" />
+	    <meta property="og:image:height" content="375" />
+	    <meta property="og:site_name" content="">
+	    <!--[if lt IE 9]>
+	        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	        <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+	    <![endif]-->
+	    <!-- shortcut icon -->
+	    <link rel="SHORTCUT ICON" href="img/favicon.png">
+	    <!-- CSS -->
+			<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+			<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+			<link rel="stylesheet" type="text/css" href="css/index.css">
+	    <!-- Google Font -->
+	    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,500&display=swap" rel="stylesheet">
+	    <!-- JS -->
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+
+
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<div class="nav_content">
+					<img src="img/logo.png">
+					<i class="fas fa-bars nav_mb"></i>
+					<ul class="links">
+						<li><a href="#"><i class="fas fa-home"></i>找打掃</a></li>
+						<li><a href="#"><i class="fas fa-briefcase"></i>企業清潔</a></li>
+						<li><a href="#">全部服務<i class="fas fa-caret-down"></i></a></li>
+						<li><a href="#" class="c_blue">成為捷客</a></li>
+						<li><a href="#">生活知識站</a></li>
+						<li><a href="#" class="register_btn">註冊登入</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="kvbox">
+				<h1>預約居家清潔<span class="desktop">，</span><br class="mobile">三分鐘馬上搞定！</h1>
+				<div class="bookingbox">
+					<div class="bookingbox_tab">
+						<div class="bookingbox_tab_btn actived">
+							快速預約
+						</div>
+						<div class="bookingbox_tab_btn">
+							雙人快清
+							<div class="new_tag">NEW</div>
+						</div>
+						<div class="bookingbox_tab_btn">
+							指定人員
+						</div>
+						<div class="bookingbox_tab_btn">
+							定期享優惠
+						</div>
+					</div>
+					<div class="booking">
+						<select class="" name="">
+							<option value=""><i class="fas fa-map-marker-alt"></i>台北市 大同區</option>
+						</select>
+						<select class="" name="">
+							<option value="">3小時</option>
+						</select>
+						<div class="has_pet">
+							<div class="has_pet_text">
+								<i class="fas fa-paw"></i>家中有寵物？
+							</div>
+							<div class="has_pet_switch">
+								<div class="has_pet_btn actived">無</div>
+								<div class="has_pet_btn">有</div>
+							</div>
+						</div>
+						<a class="booking_btn" href="#">開始預約，查看清潔價格</a>
+						<p class="booking_text">找約過的人員？<a href="#">輸入您的手機號碼</a></p>
+					</div>
+				</div>
+			</div>
+			<div id="app"></div>
+			<div class="nonservice">
+				<h1>其他未服務內容</h1>
+				<span>基於人員與客戶安全、隱私等考量</span>
+				<ul>
+					<li>移動或抬起超過10公斤的大型家具或重物</li>
+					<li>地毯深度清潔及清洗（基本除塵除外）</li>
+					<li>天花板、高處窗戶及可觸及範圍外的表面清潔</li>
+					<li>各式陳年、染色汙點清潔</li>
+					<li>無危險性外窗清潔及窗簾、紗窗清洗</li>
+					<li>除蟲害（例如：蜂窩、昆蟲…等）</li>
+					<li>寵物排泄及重度汙染區域清潔</li>
+					<li>垃圾清運工作（不指使潔客將已包裝垃圾移至其他地方丟棄）</li>
+					<li>危險化學物質處理</li>
+					<li>室內惡臭環境</li>
+					<li>車庫清潔（基本掃除除外）園藝或院子清潔。</li>
+				</ul>
+			</div>
+			<div class="rate">
+				<div class="rate_content">
+					<div class="rate_text">
+						<h1>全台唯一</h1>
+						<h2>挑人員，評價直接看！</h2>
+						<div class="rate_icon_box">
+							<div class="rate_icon">
+								<img src="img/icon1.png">
+								<p>人員具良民證、清潔證照</p>
+							</div>
+							<div class="rate_icon">
+								<img src="img/icon2.png">
+								<p>今天訂明天掃，即時預約超方便</p>
+							</div>
+							<div class="rate_icon">
+								<img src="img/icon3.png">
+								<p>價錢、履歷、評價 透明公開</p>
+							</div>
+						</div>
+					</div>
+					<div class="rate_list">
+						<div class="rate_card">
+							<div class="rate_card_img">
+								<img src="img/people1.png" width="100%">
+							</div>
+							<p class="rate_card_location">台北市</p>
+							<p class="rate_card_name">潔客＊</p>
+							<div class="rate_box">
+								<p>4.7</p>
+								<div class="rate_star">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_half.svg">
+								</div>
+							</div>
+							<p>$500/hr</p>
+						</div>
+						<div class="rate_card">
+							<div class="rate_card_img">
+								<img src="img/people2.png" width="100%">
+							</div>
+							<p class="rate_card_location">台北市</p>
+							<p class="rate_card_name">刻刻＊</p>
+							<div class="rate_box">
+								<p>4.8</p>
+								<div class="rate_star">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_half.svg">
+								</div>
+							</div>
+							<p>$500/hr</p>
+						</div>
+						<div class="rate_card">
+							<div class="rate_card_img">
+								<img src="img/people3.png" width="100%">
+							</div>
+							<p class="rate_card_location">台北市</p>
+							<p class="rate_card_name">啊潔＊</p>
+							<div class="rate_box">
+								<p>4.7</p>
+								<div class="rate_star">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_half.svg">
+								</div>
+							</div>
+							<p>$500/hr</p>
+						</div>
+						<div class="rate_card">
+							<div class="rate_card_img">
+								<img src="img/people4.png" width="100%">
+							</div>
+							<p class="rate_card_location">台北市</p>
+							<p class="rate_card_name">張碧＊</p>
+							<div class="rate_box">
+								<p>4.7</p>
+								<div class="rate_star">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_half.svg">
+								</div>
+							</div>
+							<p>$500/hr</p>
+						</div>
+						<div class="rate_card">
+							<div class="rate_card_img">
+								<img src="img/people1.png" width="100%">
+							</div>
+							<p class="rate_card_location">台北市</p>
+							<p class="rate_card_name">潔客＊</p>
+							<div class="rate_box">
+								<p>4.7</p>
+								<div class="rate_star">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_half.svg">
+								</div>
+							</div>
+							<p>$500/hr</p>
+						</div>
+						<div class="rate_card">
+							<div class="rate_card_img">
+								<img src="img/people2.png" width="100%">
+							</div>
+							<p class="rate_card_location">台北市</p>
+							<p class="rate_card_name">刻刻＊</p>
+							<div class="rate_box">
+								<p>4.8</p>
+								<div class="rate_star">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_half.svg">
+								</div>
+							</div>
+							<p>$500/hr</p>
+						</div>
+						<div class="rate_card">
+							<div class="rate_card_img">
+								<img src="img/people3.png" width="100%">
+							</div>
+							<p class="rate_card_location">台北市</p>
+							<p class="rate_card_name">啊潔＊</p>
+							<div class="rate_box">
+								<p>4.7</p>
+								<div class="rate_star">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_half.svg">
+								</div>
+							</div>
+							<p>$500/hr</p>
+						</div>
+						<div class="rate_card">
+							<div class="rate_card_img">
+								<img src="img/people4.png" width="100%">
+							</div>
+							<p class="rate_card_location">台北市</p>
+							<p class="rate_card_name">張碧＊</p>
+							<div class="rate_box">
+								<p>4.7</p>
+								<div class="rate_star">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_full.svg">
+									<img src="img/star_half.svg">
+								</div>
+							</div>
+							<p>$500/hr</p>
+						</div>
+					</div>
+					<div class="rate_text_mb">
+						<div class="rate_icon">
+							<img src="img/icon1.png">
+							<p>人員具良民證、清潔證照</p>
+						</div>
+						<div class="rate_icon">
+							<img src="img/icon2.png">
+							<p>今天訂明天掃，即時預約超方便</p>
+						</div>
+						<div class="rate_icon">
+							<img src="img/icon3.png">
+							<p>價錢、履歷、評價 透明公開</p>
+						</div>
+						<a href="#" class="rate_cta">開始預約></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			$(".has_pet_switch").on("click",()=>{
+				$(".has_pet_btn").toggleClass("actived");
+				$(".has_pet_switch").toggleClass("actived");
+			})
+			$(".nav_mb").on("click",()=>{
+				$(".links").toggleClass("actived");
+			})
+			$('.rate_list').slick({
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: false,
+				infinite: false,
+				centerMode: true,
+				responsive: [
+					{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 1,
+							slidesToScroll: 1,
+							arrows: false,
+							infinite: false,
+							centerMode: true,
+						}
+					},
+					{
+						breakpoint: 2100,
+						settings: "unslick"
+					}
+				]
+			});
+		</script>
+	</body>
+	<script src="dist/index.bundle.js"></script>
+</html>
